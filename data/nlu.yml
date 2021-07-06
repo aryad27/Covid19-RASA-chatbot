@@ -1,0 +1,173 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: hello_world
+  examples: |
+    - world
+    - programming
+    - first program
+
+- intent: corona_state
+  examples: |
+    - [India](state)
+    - [corona](state)
+    - [Kerala](state)
+    - [Delhi](state)
+    - [Telangana](state)
+    - [Rajasthan](state)
+    - [Haryana](state)
+    - [Uttar Pradesh](state)
+    - [Andaman and Nicobar Islands](state)
+    - [Andhra Pradesh](state)
+    - [Arunachal Pradesh](state)
+    - [Assam](state)
+    - [Bihar](state)
+    - [Chandigarh](state)
+    - [Chhattisgarh](state)
+    - [Dadra and Nagar Haveli and Daman and Diu](state)
+    - [Goa](state)
+    - [Gujarat](state)
+    - [Himachal Pradesh](state)
+    - [Jammu and Kashmir](state)
+    - [Jharkhand](state)
+    - [Karnataka](state)
+    - [Ladakh](state)
+    - [Lakshadweep](state)
+    - [Madhya Pradesh](state)
+    - [Maharashtra](state)
+    - [Manipur](state)
+    - [Meghalaya](state)
+    - [Mizoram](state)
+    - [Nagaland](state)
+    - [Odisha](state)
+    - [Puducherry](state)
+    - [Punjab](state)
+    - [State Unassigned](state)
+    - [Sikkim](state)
+    - [Tamil Nadu](state)
+    - [Tripura](state)
+    - [Uttarakhand](state)
+    - [West Bengal](state)
+
+- intent: corona_symptoms
+  examples: |
+    - What are the symptoms of corona?
+    - What are the symptoms of covid?
+    - Symptoms regarding covid19
+    - Signs and symptoms of covid19
+    - Is fever a symptom of corona?
+    - Is fever a symptom of covid?
+    - I have fever. Does that mean I have corona?
+
+- intent: covid_state_information
+  examples: |
+    - I want to get information related to covid
+    - Information regarding corona
+    - Covid
+    - Corona
+    - Covid information
+    - State information regarding Covid
+    - Corona information
+    - State information regarding Corona
+    - number of corona cases
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - okay
+    - k
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - I am happy
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: covid_what_to_do
+  examples: |
+    - What to do if I have covid?
+    - What should I do if I have covid19?
+    - I have covid, what should I do now?
+    - I am tested positive for covid19, what measures should I take now?
+    - I have covid19 symptoms, what should I do now?
