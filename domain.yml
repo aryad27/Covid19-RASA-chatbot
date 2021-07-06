@@ -1,0 +1,55 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - hello_world
+  - corona_state
+  - corona_symptoms
+  - covid_state_information
+  - covid_what_to_do
+
+actions:
+  - action_hello_world
+  - action_corona_tracker
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_hello_world:
+  - text: "This is Hello World response."
+
+  utter_corona_symptoms:
+  - text: "Signs and symptoms include respiratory symptoms and include fever, cough and shortness of breath."
+
+  utter_covid_state_information:
+  - text: "For state-wise information regarding covid, enter the name of the state."
+
+  utter_covid_what_to_do:
+  - text: "If you have any symptoms suggestive of COVID-19, call your health care provider or COVID-19 hotline for instructions and find out when and where to get a test, stay at home for 14 days away from others and monitor your health. If you have shortness of breath or pain or pressure in the chest, seek medical attention at a health facility immediately. Call your health care provider or hotline in advance for direction to the right health facility. If you live in an area with malaria or dengue fever, seek medical care if you have a fever. If local guidance recommends visiting a medical centre for testing, assessment or isolation, wear a medical mask while travelling to and from the facility and during medical care. Also keep at least a 1-metre distance from other people and avoid touching surfaces with your hands.  This applies to adults and children."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
